@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Project detail pagina van Ugurcan Kocak" />
+  <title>Project Detail | Ugurcan Kocak Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="main-nav" aria-label="Hoofdnavigatie">
+      <ul role="list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+        <li><a href="over-mij.html" class="nav-link">Over mij</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <nav class="breadcrumb" aria-label="Terug naar overzicht">
+      <a href="projects.html" class="back-link" aria-label="Terug naar Projects overzicht">
+        <span aria-hidden="true">&larr;</span> Terug naar Projecten
+      </a>
+    </nav>
+
+    <section class="detail-grid" aria-labelledby="project-name-heading">
+
+      <aside class="project-sidebar" aria-labelledby="project-name-heading">
+        <article class="project-meta">
+          <h1 id="project-name-heading">python-math-project</h1>
+          <a href="https://github.com/9024974/python-math-project" target="_blank" rel="noopener noreferrer" class="repo-link" aria-label="Bekijk project repository op GitHub (opent in nieuw tabblad)">
+            Link naar Repository
+          </a>
+        </article>
+
+        <article class="project-description" aria-labelledby="uitleg-heading">
+          <h2 id="uitleg-heading" class="sr-only">Projectbeschrijving</h2>
+          <p class="uitleg-label">Uitleg van Project</p>
+          <p>Dit was mijn begin project voor python coderen.</p>
+          <p>Het code genereerd 15 reken sommen en het telt ook hoe lang je er over doet. Ik vond het heel erg interresant om een nieuwe programmeer taal te leren en ik hoop er meer te leren.</p>
+        </article>
+      </aside>
+
+      <article class="project-showcase" aria-labelledby="project-name-heading">
+        <figure>
+         <video 
+      class="jsproject-video"
+    autoplay
+  loop
+  playsinline
+      aria-label="Demo video van het project"
+    >
+      <source src="foto's/pythonproject.mp4" type="video/mp4" />
+      <p>Je browser ondersteunt geen video. <a href="foto's/pythonproject.mp4">Download de video</a>.</p>
+    </video>
+    <figcaption class="sr-only">Demo video van het project</figcaption>
+        </figure>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p><small>&copy; Ugurcan Kocak Projects</small></p>
+  </footer>
+
+</body>
+</html>
